@@ -2,7 +2,7 @@ import pandas as pd
 import ollama
 
 
-df = pd.read_csv("/Users/cindylin/Documents/IW 06/codeMixQA_qwen.csv")
+df = pd.read_csv("codeMixQA_qwen.csv")
 for idx, row in df.iterrows():
     if idx > 1:
         break
